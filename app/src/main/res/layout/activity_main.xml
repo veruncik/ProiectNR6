@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:orientation="vertical"
+    android:id="@+id/linearlayout">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@android:drawable/stat_sys_phone_call_forward" />
+
+    <EditText
+        android:id="@+id/txtNume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Nume"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColorHint="#9370DB"/>
+
+    <EditText
+        android:id="@+id/txtPren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Prenume"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColorHint="#8A2BE2"/>
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Număr de telefon"
+        android:inputType="phone"
+        android:textColorHint="#9400D3" />
+
+    <Button
+        android:id="@+id/btnVerifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifică"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#6A5ACD" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
